@@ -77,7 +77,7 @@ const Navigation = () => {
                         return (
                             <li key={item.label}>
                                 <Link href={item.href}
-                                className={`relative before:content-[""] before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-emerald-600 before:origin-[100%,50%] before:transition-all before:duration-300 before:ease-in-out before:scale-x-0 before:scale-y-[1] before:scale-z-[1] before:will-change-transform hover:before:origin-[100%,0%] hover:before:scale-x-[1] hover:before:scale-y-[1] hover:before:scale-z-[1] text-[12px] tracking-[2px] uppercase font-semibold pb-2`}
+                                className={`relative before:content-[""] before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-emerald-400 before:origin-[100%,50%] before:transition-all before:duration-300 before:ease-in-out before:scale-x-0 before:scale-y-[1] before:scale-z-[1] before:will-change-transform hover:before:origin-[100%,0%] hover:before:scale-x-[1] hover:before:scale-y-[1] hover:before:scale-z-[1] text-[12px] tracking-[2px] uppercase font-semibold pb-2`}
                                 >{item.label}</Link>
                             </li>
                         )
